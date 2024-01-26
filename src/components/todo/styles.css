@@ -1,0 +1,90 @@
+.wrapper {
+    background-color: var(--color-3);
+    border-radius: 5px;
+    margin: 5rem 0 2rem 0;
+    padding: 3rem;
+    text-align: center;
+    width: 100vh;
+}
+
+
+h1 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-1);
+}
+
+
+.form.add-todo-form {
+    margin: 2rem 0 3rem 0;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0; 
+}
+
+.form input {
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--color-2);
+    outline: none;
+    background: none;
+    color: var(--color-1);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    flex-grow: 1;
+}
+
+.form input::placeholder {
+    color: var(--color-5);
+}
+
+.form button {
+    font-size: 1rem;
+    padding: 0.75rem;
+    border: 1px solid var(--color-2);
+    background: var(--color-2);
+    color: var(--color-1);
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-2);
+    border: 1px solid var(--color-2);
+    color: var(--color-1);
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    margin: 0.5rem 0; 
+}
+
+.todo p, .todo svg {
+    cursor: pointer;
+}
+
+.todo svg {
+    margin-left: 1rem;
+}
+
+.todo p.completed {
+    text-decoration: line-through;
+    color: var(--color-4);
+}
+
+.todo svg.fa-pen-to-square {
+    color: var(--color-5);
+}
+
+.todo svg.fa-trash { 
+    color: var(--color-6); 
+}
